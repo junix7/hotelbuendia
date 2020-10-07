@@ -1,0 +1,363 @@
+body{
+
+    background: #d4d4d4;
+    ffont-family: 'Piazzolla', serif;
+    color:#021F2F;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    margin:0;
+}
+
+p{
+    margin: 55px 0px;
+    font-family: 'Piazzolla', serif;
+
+}
+
+.container{
+    display: inline-block;
+    width: 85%;
+    max-width: 850px;
+    margin:0 auto;
+}
+
+.parrafo{
+    max-width: 1050px;
+    margin-bottom: 20px;
+    padding: 55px;
+}
+
+.separador{
+    background: #F5F5F5;
+}
+
+.main h1{
+    text-align: center;
+    color: #151515;
+    font-family: 'Sansita Swashed', cursive;
+}
+h2{
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.header{
+    background: #555761;
+    color:white;
+    padding:1rem 0;
+
+    position: fixed;
+    left:0;
+    top: 0;
+    right: 0;
+}
+
+.header a{
+    color:white;
+    text-decoration: none;
+    align-items: center;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+#logocomercial{
+    width: 500px;
+    height: 30px;
+}
+.logo{
+     letter-spacing: 15px;
+     font-size: 1.4em;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.navigation ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 0;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+    background:#ccc; 
+}
+
+.main{
+    width: 95%;
+    max-width: 1050px;
+    margin:0 auto;
+    background: white;
+}
+
+.footer{
+    background: #555761;
+    padding: 0.3rem 0;
+    text-align: center;
+    margin-top: 0.5rem;
+    color:white;
+}
+
+h1{
+    color: #273445;
+    font:bold;
+    font-size: 150%;
+}
+
+form .input__text:focus{
+    border: 1px solid #1b743c;
+}
+form .form-group{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+form .form-group .input__text{
+    max-width: 45% !important;
+}
+
+form .btn{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    background: rgb(3, 113, 163);
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    outline: medium none;
+    cursor: pointer;
+}
+
+.btn__group{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.btn__primary{
+    background: rgb(3, 113, 163);
+}
+
+.btn__nuevo{
+    display: inline-block;
+    font-size: 14px;
+    background: #5bc0de;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn__nuevo:hover {
+  color: #000;
+  background-color: #31b0d5;
+  border-color: #269abc;
+  cursor: pointer;
+}
+
+.btn__danger{
+    background: #8a0505 !important;
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+.btn__danger:hover {
+  color: #000;
+  background-color: #c6262e;
+  border-color: #ff8c82;
+  cursor: pointer;
+}
+
+.btn__editar{
+    display: inline-block;
+    font-size: 14px;
+    background: #3a9104;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn__editar:hover {
+  color: #000;
+  background-color: #206b00;
+  border-color: #269abc;
+  cursor: pointer;
+}
+
+.img-banner{
+    text-align: center;
+    width: 48%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.img-banner2{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.img-banner3{
+    width: 100%;
+}
+
+
+
+.card{
+    border: 1px solid #95a3ab;
+    width: 300px;
+    float: left;
+    margin: 5px;
+}
+.card p{
+    margin: 5px 0px;
+    padding:0px 15px;
+}
+
+.card img{
+    opacity: 0.8;
+}
+.card img:hover{
+    opacity: 1.0;
+}
+.card:hover{
+    border: 1px solid teal;
+}
+
+.habitaciones{
+    text-align: center;
+    margin-left: 3px;
+}
+
+.habitaciones::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+ .img-portada{
+    text-align: center;
+    width: 10%;
+    height: 10%;
+}
+
+.suscribete{
+    text-align: center;
+    margin: 55px 0px;
+}
+.suscribete input{
+    background: #fafafa;
+    width: 55%;
+    height:10%;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 25px 50px;
+    font-size: 100%;
+}
+
+.suscribete button{
+    background: #3599E9;
+    color: white;
+    border: none;
+    width: 25%;
+    height: 10%;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.suscribete button:hover{
+    cursor: pointer;
+    background: #555761;
+}
+
+
+
+
+
+@media only screen and (max-width: 767px){
+.menu-icon{
+    display: block;
+    cursor: pointer;
+    padding: 0.5rem 1 rem;
+}
+
+.navigation{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.navigation ul{
+
+    display: none;
+}
+
+.navigation ul.show{
+
+    display: block;
+}
+
+
+.navigation ul li{
+    display: block;
+}
+.navigation ul li a{
+display: block;
+padding: 0.5rem 1rem;
+transition: all 0.4s linear;
+border-radius: 5px;
+}
+
+.navigation ul li a:hover{
+    background:#ccc; 
+}
+
+
+
+
+.img-banner{
+   
+width: 85%;
+max-width: 850px;
+margin:0 auto;
+}
+
+.imag-portada{
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+
+.container{
+    width: 100%;
+}
+
+h1{
+    font-size: 18px;
+}
+
+}
