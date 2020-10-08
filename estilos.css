@@ -97,6 +97,9 @@ h2{
 .navigation ul li a:hover{
     background:#ccc; 
 }
+.navigation a{
+    margin-right: 15px;
+}
 
 .main{
     width: 95%;
@@ -222,6 +225,7 @@ form .btn{
 
 .img-banner3{
     width: 100%;
+    flex-wrap: wrap;
 }
 
 
@@ -234,7 +238,7 @@ form .btn{
 }
 .card p{
     margin: 5px 0px;
-    padding:0px 15px;
+    padding:0px 15px 15px 15px;
 }
 
 .card img{
@@ -250,6 +254,7 @@ form .btn{
 .habitaciones{
     text-align: center;
     margin-left: 3px;
+
 }
 
 .habitaciones::after{
@@ -294,7 +299,26 @@ form .btn{
     cursor: pointer;
     background: #555761;
 }
-
+/*buttom up page*/
+.up{
+   
+}
+.up a{
+    text-decoration: none;
+    padding:15px;
+    border-radius: 100%;
+    margin: 10px 0px 10px 94%;
+    background: #3599E9;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    font-size: 18px;
+    font-style: bold;
+}
+.up a:hover{
+    background:#555761;
+    color:#FFE001;
+}
 
 
 

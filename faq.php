@@ -22,7 +22,7 @@
     </header>
     <main class="main">
   
-        <img src="images/portada.jpg" class="img-banner2">
+        <img src="images/portada2-800.jpg" class="img-banner2">
     
     <br>
   <div class="parrafo">
