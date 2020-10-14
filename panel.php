@@ -32,11 +32,11 @@
             echo "<td>"; echo $fila['dni']; echo "</td>";  
             echo "<td>"; echo $fila['tiempo']; echo "</td>";  
             echo "<td>"; echo $fila['habitacion']; echo "</td>";  
-                        echo "<td>"; echo $fila['valor']; echo "</td>";  
-                                    echo "<td>"; echo $fila['personas']; echo "</td>";  
+            echo "<td>"; echo $fila['valor']; echo "</td>";  
+            echo "<td>"; echo $fila['personas']; echo "</td>";  
             echo "<td><a href='modif_prod1.php?id=".$fila['id']."'> <button type='button' class='btn btn__editar'>EDITAR</button> </a></td>";
             echo " <td><a href='eliminar_prod.php?id=".$fila['id']."'> <button type='button' class='btn btn__danger'>ELIMINAR</button> </a></td>";
-          echo "</tr>";
+            echo "</tr>";
         }
       ?>
     </table>

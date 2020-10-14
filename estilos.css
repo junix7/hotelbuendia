@@ -122,34 +122,14 @@ h1{
     font-size: 150%;
 }
 
-form .input__text:focus{
-    border: 1px solid #1b743c;
+.form__group{
+    text-align: center;
+    margin: 55px;
 }
-form .form-group{
-    display: flex;
-    width: 100%;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-
-form .form-group .input__text{
-    max-width: 45% !important;
-}
-
-form .btn{
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
-    color: #fff;
-    display: block;
-    font-size: 14px;
-    background: rgb(3, 113, 163);
+.form__group input{
     margin-bottom: 15px;
-    padding: 10px 20px;
-    margin-right: 10px;
-    outline: medium none;
-    cursor: pointer;
 }
+
 
 .btn__group{
     width: 100%;
