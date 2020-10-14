@@ -1,15 +1,7 @@
 <html>
-<head>
-  <title>Hotel Buen Día!</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="estilos.css">
-   <link href="https://fonts.googleapis.com/css2?family=Piazzolla&family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
-
-  </head>
-  <body>
-    <!--importando el header -->
+      <!--importando el header -->
       <?php include ('header.php'); ?>
-
+  <body>
     <!--comienzo del parrafo -->
       <div class="parrafo">
         <img src="images/portada3-500.jpg" class="img-banner" style="float: left;">
@@ -45,8 +37,8 @@
     <div class="parrafo separador">
       <h1>Nuestros servicios</h1>
       <p style="text-align: center;"> En nuestro hotel, hay una variedad servicios que puede disfrutar en cualquier momento.</p>
-         
     </div>
+    
     <div class="parrafo habitaciones">
       <div class="card">
         <img src="images/piscina-500.jpg" class="img-banner3">
@@ -72,10 +64,7 @@
     </div>
     <br>
  </div>
-
-      <!--Botón para subir-->
-  <div class="up"><a href="#header">^</a></div>
   <?php include ('footer.php'); ?>
-  </body><br>
+  </body>
   </html>
     
